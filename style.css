@@ -1,0 +1,366 @@
+.tag{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    padding-left: 50px;
+}
+.header{
+    background-color:#006A67;
+}
+.list{
+    font-size: 20px;
+}
+.one{
+    height: 70vh;
+    background-color:#006A67;
+}
+.one1{
+    height: 70vh;
+    width: 40%;
+    float: left;
+    color: white;
+    background-color: #006A67;
+}
+.one2{
+    height: 70vh;
+    width: 60%;
+    float: left;
+    background-color: #212727;
+    
+}
+.one1 h1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 100px 100px 0px 75px;
+    margin-bottom: 20px;
+}
+.one1 p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0px 0px 0px 20px;
+    line-height: 1.5;
+}
+.one2 img{
+    height: 70vh;
+    width: 100%;
+}
+.button1{
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.two{
+    height: 50vh;
+    margin-top: 50px;
+    padding-top: 10px;
+    background-color: white;
+    display: flex;
+}
+.two1{
+    height: 50vh;
+    width: 20%;
+    background-color: white;
+}
+.two2{
+    height: 50vh;
+    width: 20%;
+    background-color: white;
+}
+.two3{
+    height: 50vh;
+    width: 20%;
+    background-color: white;
+}
+.two4{
+    height: 50vh;
+    width: 20%;
+    background-color: white;
+}
+.two5{
+    height: 50vh;
+    width: 20%;
+    background-color: white;
+}
+
+.two2 img{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 250px;
+    height:300px;
+    border-radius: 50px;
+}
+.two2 p{
+    padding-left: 100px;
+}
+.two3 img{
+    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 250px;
+    height:300px;
+    border-radius: 50px;
+}
+.two p{
+    padding-left: 100px;
+}
+.two4 img{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 250px;
+    height:300px;
+    border-radius: 50px;
+}
+.two img{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 250px;
+    height:300px;
+    border-radius: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.two1 h4{
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    padding-left: 50px;
+}
+.two1 p{
+text-align: justify;
+}
+.two img :hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.three{
+    height: 60vh;
+    margin-top: 60px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.three1{
+    width: 60%;
+    height: 60vh;
+    background-color: white;
+    float: left;
+}
+.three2{
+    width: 40%;
+    height: 60vh;
+    background-color: white;
+    float: left;
+}
+.three1 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    padding-left: 50px;
+}
+.three p{
+    text-align: center;
+}
+.three2 img{
+    height: 60vh;
+    width: 100%;
+}
+.thr{
+    height: 44vh;
+    width: 100%;
+    background-color: white;
+}
+.thr1{
+    height: 22vh;
+    width: 100%; 
+    background-color: white;
+}
+.th1{
+    height: 22vh;
+    width: 50%;
+    background-color:white;
+    float: left;
+}
+.th2{
+    height: 22vh;
+    width: 50%;
+    background-color:white;
+    float: left;
+}
+.thr2{
+    height: 22vh;
+    width: 100%;
+    background-color: white;
+}
+.th3{
+    height: 22vh;
+    width: 50%;
+    background-color: white;
+    float: left;
+}
+.th4{
+    height: 22vh;
+    width: 50%;
+    background-color:white;
+    float: left;
+}
+.th1 i{
+    padding: 40px 0px 0px 100px;
+}
+.th1 p{
+    padding-left: 100px;
+}
+.th2 i{
+    padding: 40px 0px 0px 100px;
+}
+.th2 p{
+    padding-left: 100px;
+}
+.th3 i{
+    padding: 40px 0px 0px 100px;
+}
+.th3 p{
+    padding-left: 100px;
+}
+.th4 i{
+    padding: 40px 0px 0px 100px;
+}
+.th4 p{
+    padding-left: 100px;
+}
+.four{
+    margin-top: 70px;
+}
+.footer{
+    margin-top: 10px;
+    background-color: #006A67;
+    color: azure;
+}
+/*media Query*/
+@media (max-width: 768px) and (max-width: 991.98px) {
+    .one {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      text-align: center;
+      height: auto; 
+      padding: 20px;
+    }
+  
+    .one1,
+    .one2 {
+      width: 100%; 
+      height: auto; 
+      padding: 10px;
+    }
+  
+    .one1 h1 {
+      font-size: 2rem; 
+      padding: 10px;
+    }
+  
+    .one1 p {
+      font-size: 1rem; 
+      line-height: 1.5;
+      padding: 10px;
+    }
+  
+    .one2 img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px; 
+    }
+  
+    .button1 {
+      padding: 10px 0; 
+      display: flex;
+      flex-direction: column;
+      gap: 10px; 
+    }
+  
+   
+    .two {
+      display: grid;
+      grid-template-columns: 1fr; 
+      gap: 20px; 
+      margin: 0;
+      padding: 20px;
+    }
+  
+    .two1,
+    .two2,
+    .two3,
+    .two4,
+    .two5 {
+      width: 100%; 
+      height: auto;
+      text-align: center;
+    }
+  
+    .two img {
+      width: 80%;
+      height: auto;
+      margin: 0 auto; 
+      border-radius: 15px;
+    }
+  
+    .two p {
+      text-align: center; 
+      padding: 10px;
+      font-size: 1rem;
+    }
+    /* Base styles */
+.three {
+    margin-top: 1600px; 
+    text-align: center;
+    height: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.thr {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.thr i {
+    font-size: 2rem; 
+    padding: 10px 0; 
+}
+
+.thr p {
+    text-align: center;
+    font-size: 1rem; 
+    padding: 10px 0; 
+}
+
+.thr2 {
+    margin-top: 10px;
+}
+
+.three2 {
+    margin-top: 150px;
+    padding-top: 9px;
+    width: 100%; 
+    height: auto; 
+}
+
+.three1 p {
+    font-weight: 400; /* Regular weight for readability */
+    font-size: 1rem; /* Smaller text size for better readability */
+    line-height: 1.5;
+    padding: 0 10px; /* Add padding to avoid text touching edges */
+    text-align: center;
+}
+
+
+     
+  }
